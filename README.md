@@ -1,1 +1,3 @@
 # Javaminiproject
+
+update news api
