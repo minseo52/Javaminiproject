@@ -13,7 +13,7 @@ Java와 Swing을 사용한 테트리스 게임입니다.
 게임의 상태 변화는 타이머와 키 이벤트 기반으로 이루어지며, 점수와 난이도 조절 시스템이 포함되어 있습니다.
 
 ---
-## FlowChart
+## ● FlowChart
 
 ![image](https://github.com/user-attachments/assets/79e38404-4259-452d-94b2-f58ba262110d)
 
@@ -22,25 +22,25 @@ Java와 Swing을 사용한 테트리스 게임입니다.
 
 ## 🖥️ 게임 UI 예시
 
-## 게임 시작 화면
+## ● 게임 시작 화면
 
 ![image](https://github.com/user-attachments/assets/0b9ff4e0-6d91-40c0-a6cf-9ea8e0931aa6)
 
 
-## 게임 영상
+## ● 게임 영상
 
 <img src="https://github.com/user-attachments/assets/fd1c5474-57f2-40fa-b5be-9022874a23ef" width="400" />
 
-## 하드 드롭 기능
+## ● 하드 드롭 기능
 
 <img src="https://github.com/user-attachments/assets/ec8e4916-9b1a-49e2-b4df-f179353840c2" width="400" />
 
 
-## 게임 종료 화면
+## ● 게임 종료
 
 ![image](https://github.com/user-attachments/assets/168560f3-48ff-4e97-9263-a4813a065d1b)
 
-## 게임 오버 및 재시작 버튼 표시
+## ● 게임 오버 및 재시작 버튼 표시
 
 **기능 설명:**  
 새 블록이 생성되자마자 충돌이 발생하면 게임 오버로 판단합니다.  
