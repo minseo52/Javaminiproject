@@ -28,8 +28,10 @@ if (collision()) {
     clearLines();
     spawnNewBlock();
 }
+```
 
 ---
+
 ### 2. 키보드 입력으로 블록 이동/회전/하드드롭
 
 **기능 설명:**  
@@ -44,10 +46,13 @@ switch (keyCode) {
     case KeyEvent.VK_UP: block.rotate(); break;
     case KeyEvent.VK_SPACE: block.hardDrop(); break;
 }
+```
 
 ---
+
 ### 3. 한 줄 완성 시 삭제 및 점수 증가
 
+**기능 설명:**  
 보드의 가로 한 줄이 전부 채워지면 해당 줄이 제거되고 점수가 증가합니다.  
 제거된 줄 위에 있던 모든 줄은 한 줄씩 아래로 내려옵니다.
 
@@ -59,10 +64,13 @@ for (int row = 0; row < board.length; row++) {
         score += 100;
     }
 }
+```
 
 ---
+
 ### 4. 경과 시간에 따른 블록 속도 증가 (난이도 상승)
 
+**기능 설명:**  
 게임이 진행될수록 난이도가 올라가며 블록이 더 빠르게 낙하합니다.  
 일정 시간(예: 30초)마다 낙하 속도를 높여 플레이어에게 도전적인 게임 환경을 제공합니다.
 
@@ -71,10 +79,13 @@ if (elapsedTime > threshold) {
     speedUp();
     threshold += 30000; // 30초마다 속도 증가
 }
+```
 
 ---
+
 ### 5. 게임 오버 및 재시작 버튼 표시
 
+**기능 설명:**  
 새 블록이 생성되자마자 충돌이 발생하면 게임 오버로 판단합니다.  
 게임 오버 시 현재 점수를 표시하고, "Restart" 버튼이 화면에 나타나 게임을 다시 시작할 수 있도록 합니다.
 
@@ -83,8 +94,10 @@ if (block.isAtTop() && collision()) {
     gameOver = true;
     showRestartButton();
 }
+```
 
 ---
+
 
 ## 🖥️ 게임 UI 예시
 
