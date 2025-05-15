@@ -14,3 +14,7 @@
 -IDE : 이클립스
 -운영 : Windows
 -자바 SDK : 오라클 JDK 17
+
+
+##flow chart
+![Uploading image.png…]()
