@@ -26,9 +26,6 @@ Java와 Swing을 사용한 테트리스 게임입니다.
 
 ![image](https://github.com/user-attachments/assets/0b9ff4e0-6d91-40c0-a6cf-9ea8e0931aa6)
 
-## 게임 종료 화면
-
-![image](https://github.com/user-attachments/assets/168560f3-48ff-4e97-9263-a4813a065d1b)
 
 ## 게임 영상
 
@@ -37,6 +34,25 @@ Java와 Swing을 사용한 테트리스 게임입니다.
 ## 하드 드롭 기능
 
 <img src="https://github.com/user-attachments/assets/ec8e4916-9b1a-49e2-b4df-f179353840c2" width="400" />
+
+
+## 게임 종료 화면
+
+![image](https://github.com/user-attachments/assets/168560f3-48ff-4e97-9263-a4813a065d1b)
+
+## 게임 오버 및 재시작 버튼 표시
+
+**기능 설명:**  
+새 블록이 생성되자마자 충돌이 발생하면 게임 오버로 판단합니다.  
+게임 오버 시 현재 점수를 표시하고, "Restart" 버튼이 화면에 나타나 게임을 다시 시작할 수 있도록 합니다.
+
+```java
+if (block.isAtTop() && collision()) {
+    gameOver = true;
+    showRestartButton();
+}
+```
+
 
 ---
 
@@ -104,21 +120,6 @@ for (int row = 0; row < board.length; row++) {
 if (elapsedTime > threshold) {
     speedUp();
     threshold += 30000; // 30초마다 속도 증가
-}
-```
-
----
-
-### 5. 게임 오버 및 재시작 버튼 표시
-
-**기능 설명:**  
-새 블록이 생성되자마자 충돌이 발생하면 게임 오버로 판단합니다.  
-게임 오버 시 현재 점수를 표시하고, "Restart" 버튼이 화면에 나타나 게임을 다시 시작할 수 있도록 합니다.
-
-```java
-if (block.isAtTop() && collision()) {
-    gameOver = true;
-    showRestartButton();
 }
 ```
 
