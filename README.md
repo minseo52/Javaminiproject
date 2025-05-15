@@ -13,6 +13,12 @@ Java와 Swing을 사용한 테트리스 게임입니다.
 게임의 상태 변화는 타이머와 키 이벤트 기반으로 이루어지며, 점수와 난이도 조절 시스템이 포함되어 있습니다.
 
 ---
+## FlowChart
+
+![image](https://github.com/user-attachments/assets/79e38404-4259-452d-94b2-f58ba262110d)
+
+
+---
 
 ## 💡 주요 기능 및 코드 흐름
 
