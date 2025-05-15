@@ -32,11 +32,11 @@ Java와 Swing을 사용한 테트리스 게임입니다.
 
 ## 게임 영상
 
-<img src="https://github.com/user-attachments/assets/fd1c5474-57f2-40fa-b5be-9022874a23ef" width="800" />
+<img src="https://github.com/user-attachments/assets/fd1c5474-57f2-40fa-b5be-9022874a23ef" width="600" />
 
 ## 하드 드롭 기능
 
-<img src="https://github.com/user-attachments/assets/ec8e4916-9b1a-49e2-b4df-f179353840c2" width="800" />
+<img src="https://github.com/user-attachments/assets/ec8e4916-9b1a-49e2-b4df-f179353840c2" width="600" />
 
 ---
 
