@@ -20,6 +20,26 @@ Java와 Swing을 사용한 테트리스 게임입니다.
 
 ---
 
+## 🖥️ 게임 UI 예시
+
+## 게임 시작 화면
+
+![image](https://github.com/user-attachments/assets/0b9ff4e0-6d91-40c0-a6cf-9ea8e0931aa6)
+
+## 게임 오버 화면
+
+![image](https://github.com/user-attachments/assets/168560f3-48ff-4e97-9263-a4813a065d1b)
+
+## 게임 영상
+
+![Tetris 2025-05-15 17-04-18](https://github.com/user-attachments/assets/fd1c5474-57f2-40fa-b5be-9022874a23ef)
+
+## 하드 드롭 기능
+
+![Tetris 2025-05-15](https://github.com/user-attachments/assets/ec8e4916-9b1a-49e2-b4df-f179353840c2)
+
+---
+
 ## 💡 주요 기능 및 코드 흐름
 
 ### 1. 블록 낙하 및 충돌 처리
@@ -103,9 +123,3 @@ if (block.isAtTop() && collision()) {
 ```
 
 ---
-
-
-## 🖥️ 게임 UI 예시
-
-
-
